@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@misc/*": ["./src/misc/*"],
+      "@components": ["./src/components"],
+      "@assets/*": ["./src/assets/*"],
+      "@constants": ["./src/constants"],
+      "@interfaces": ["./src/utils/interfaces"],
+      "@pages/*": ["./src/pages/*"],
+      "@utils": ["./src/utils"],
+      "@routers": ["./src/routers"],
+      "@stores": ["./src/stores"],
+      "@graphql": ["./src/graphql"]
+    }
+  }
+}

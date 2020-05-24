@@ -1,0 +1,125 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[graphql]": {
+    "editor.formatOnSave": false
+  },
+  // Highlight
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    {
+      "text": "NOTE:",
+      "color": "#87e8de",
+      "border": "1px solid #87e8de",
+      "overviewRulerColor": "#87e8de"
+    },
+    {
+      "text": "EDIT:",
+      "color": "#ffed63",
+      "border": "1px solid #ffed63",
+      "overviewRulerColor": "#ffed63"
+    },
+    {
+      "text": "PUBSUB:",
+      "color": "#e0b8ff",
+      "border": "1px solid #e0b8ff",
+      "overviewRulerColor": "#e0b8ff"
+    },
+    {
+      "text": "MUTATION:",
+      "color": "#FFF",
+      "border": "1px solid #b8d3ff",
+      "overviewRulerColor": "#b8d3ff"
+    },
+    {
+      "text": "QUERY:",
+      "color": "#b8ffc1",
+      "border": "1px solid #b8ffc1",
+      "overviewRulerColor": "#b8ffc1"
+    },
+    {
+      "text": "REFACTORED:",
+      "color": "#95ff00",
+      "border": "1px solid #95ff00",
+      "overviewRulerColor": "#95ff00"
+    },
+    {
+      "text": "FIXME:",
+      "color": "#fff",
+      "border": "1px solid #ff61c5",
+      "overviewRulerColor": "#ff61c5"
+    },
+    {
+      "text": "STABLE:",
+      "color": "#6effcc",
+      "border": "1px solid #6effcc",
+      "overviewRulerColor": "#6effcc"
+    },
+    {
+      "text": "UNSTABLE:",
+      "color": "#ff0000",
+      "border": "1px solid #ff0000",
+      "overviewRulerColor": "#ff0000"
+    },
+    {
+      "text": "*:",
+      "color": "#fa8c16",
+      "border": "1px solid #fa8c16",
+      "overviewRulerColor": "#fa8c16"
+    },
+    {
+      "text": "*_:",
+      "color": "#eb2f96",
+      "border": "1px solid #eb2f96",
+      "overviewRulerColor": "#eb2f96",
+      "isWholeLine": true
+    },
+    {
+      "text": "*__:",
+      "color": "#ffadd2",
+      "border": "1px solid #ffadd2",
+      "overviewRulerColor": "#ffadd2",
+      "isWholeLine": true
+    },
+    {
+      "text": "*___:",
+      "color": "#fff",
+      "border": "1px solid #fff",
+      "overviewRulerColor": "#fff",
+      "isWholeLine": true
+    }
+  ],
+  // "todohighlight.keywordsPattern": "TODO:|\\(([^)]+)\\)",
+  "todohighlight.defaultStyle": {
+    "cursor": "pointer",
+    "borderRadius": "2px",
+    "isWholeLine": false,
+    "backgroundColor": "rgba(0,0,0,.2)"
+  },
+  "todohighlight.include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.css",
+    "**/*.scss",
+    "**/*.less"
+  ],
+  "todohighlight.exclude": [
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/.vscode/**",
+    "**/.github/**",
+    "**/_output/**",
+    "**/*.min.*",
+    "**/*.map",
+    "**/.next/**",
+    "**/*.json"
+  ],
+  "todohighlight.maxFilesForSearch": 5120,
+  "todohighlight.toggleURI": false
+}
